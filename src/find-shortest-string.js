@@ -20,5 +20,8 @@ function findShortestString(stringArr) {
 console.log(findShortestString(["it", "is", "a", "nice", "day"]), "a");
 console.log(findShortestString(["why", "hello", "to", "you"]), "to");
 console.log(findShortestString(["brave", "dance"]), "brave");
-console.log(findShortestString(["one", "two", "houses"]), "one")
-console.log(findShortestString(["orange", "mobile"]), "orange")
+console.log(findShortestString(["one", "two", "houses"]), "one");
+console.log(findShortestString(["orange", "mobile"]), "orange");
+
+// export function so it can be used in test file
+module.exports = findShortestString;
