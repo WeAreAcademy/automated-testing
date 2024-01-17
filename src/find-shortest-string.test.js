@@ -3,7 +3,7 @@ const findShortestString = require("./find-shortest-string");
 
 test("findShortestString finds the shortest string in an array", () => {
   expect(findShortestString(["Smell", "Feel", "Touch"])).toBe("Feel");
-  expect(findShortestString(["Feelings", "Hearing", "Punt"])).toBe("Feelings");
+  expect(findShortestString(["Feelings", "Hearing", "Punt"])).toBe("Punt");
 });
 
 test("findShortestString returns the string where multiple strings have same length", () => {
